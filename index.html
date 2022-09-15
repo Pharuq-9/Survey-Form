@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">PC OS Survey</h1>
+  <p id="description">Help me learn more about your favourite OS!</p>
+<form id="survey-form">
+  <div class="form-control">
+  <label id="name-label">Name:
+    <input id="name" type="text" placeholder="Enter your name" required />
+  </label>
+  </div>
+  <div class="form-control">
+  <label id="email-label">Email:
+  <input id="email" type="email" placeholder="Enter your email" required/>
+  </label>
+  </div>
+  <div class="form-control">
+  <label id="number-label">Age:
+  <input id="number" type="number" placeholder="Age" min="0" max="200" />
+  </label>
+  </div>
+  <div class="form-control">
+    <p>What is your occupation?</p>
+  <select id="dropdown">
+    <option>Student</option>
+    <option>Tech-related field</option>
+    <option>NonTech-related Field</option>
+  </select>
+  </div>
+  <div class="form-control">
+    <p>What is your favourite OS?</p>
+    <label>Windows
+      <input type="radio" name="radio-group" value="windows" />
+    </label>
+    <label>MacOS
+      <input type="radio" name="radio-group" value="macos" />
+    </label>
+    <label>Linux
+      <input type="radio" name="radio-group" value="linux" />
+    </label>
+    </div>
+
+
+<!-- Cost Coding Apps Gaming Security -->
+<div class="form-control">
+  <p>Why is it your favourite OS? (You can select more than 1)</p>
+  <label>Cost
+    <input type="checkbox" value="Cost" />
+  </label>
+  <label>Coding
+    <input type="checkbox" value="Coding" />
+  </label>
+  <label>Apps
+    <input type="checkbox" value="Apps" />
+  </label>
+  <label>Gaming
+    <input type="checkbox" value="Gaming" />
+  </label>
+  <label>Security
+    <input type="checkbox" value="Security" />
+  </label>
+</div>
+<div class="form-control">
+  <textarea></textarea>
+</div>
+<div class="form-control">
+  <button id="submit" type="submit">Submit</button>
+  <button id="reset" type="reset">Reset</button>
+</div>
+</form>
+</div>
+</body>
+</html>
